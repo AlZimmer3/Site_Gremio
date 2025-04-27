@@ -1,0 +1,36 @@
+input, select {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=text]:focus, select:focus {
+    outline: none;
+    border-bottom: 2px solid #0c7523;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #0c7523;
+    color: white;
+    padding: 14px 20px;
+    margin: 2em 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}

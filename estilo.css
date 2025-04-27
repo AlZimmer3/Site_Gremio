@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+h1.titulo {
+    font-family: "Comic Relief", Arial, Helvetica, sans-serif;
+    color: green;
+    background-image: url("imagens/imagem_escola.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 20px;
+
+}
+
+.col1 {width: 8.33%;}
+.col2 {width: 16.66%;}
+.col3 {width: 25%;}
+.col4 {width: 33.33%;}
+.col5 {width: 41.66%;}
+.col6 {width: 50%;}
+.col7 {width: 58.33%;}
+.col8 {width: 66.66%;}
+.col9 {width: 75%;}
+.col10 {width: 83.33%;}
+.col11 {width: 91.66%;}
+.col12 {width: 100%;}
+
+[class*="col"] {
+    float: left;
+    padding: 15px;
+}
+
+a.botaoform {
+    color: white;
+    background-color: rgb(41, 41, 201);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a.botao {
+    color: white;
+    background-color: #137a47;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;  
+}
+
+h2 {
+    font-family: "Comic Relief", Arial, Helvetica, sans-serif;
+    color: #1b5e20;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th  {
+    background-color: #137a47;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+}
+  
