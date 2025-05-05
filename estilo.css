@@ -32,7 +32,7 @@ h1.titulo {
 
 a.botaoform {
     color: white;
-    background-color: rgb(41, 41, 201);
+    background-color: #2929c9;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -62,9 +62,9 @@ table {
 }
 
 table th, table td {
-    border: 1px solid black;
     padding: 8px;
     text-align: left;
+    border-radius: 8px;
 }
 
 th  {
@@ -73,4 +73,19 @@ th  {
     padding: 12px;
     text-transform: uppercase;
 }
-  
+
+p {
+    color: red;
+}
+
+.conteudo {
+    background-image: url(Imagens/Imagem_escola2.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 40px;
+}
+
+  input[type="submit"] {
+    background-color: #137a47;
+    color: white;
+  }
