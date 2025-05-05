@@ -11,45 +11,76 @@
     <title>Grêmio Terra Firme</title>
 </head>
 <body>
-    <h1 class="titulo col12">Grêmio Estudantil Terra Firme</h1>
-    <a class="botaoform" href="Form/form.html">faça parte</a>
-    <a class="botao" href="#presidentes">Presidencia</a>
-    <a class="botao" href="#secretario">secretario</a>
-    <a class="botao" href="#tesoureiro">tesoureiro</a>
-    <a class="botao" href="#comunicacao">diretor de comunicação</a>
-    <a class="botao" href="#CulturaEsportes">diretor de cultura e esportes</a>
-    <a class="botao" href="#MeioAmbienteProjetos">diretor de meio ambiente e projetos</a>
+    <div class="topo">
+        <h1 class="titulo col12">Chapa União Pelo Progresso Terra Firme</h1>
+        <a class="botaoform" href="Form/form.html">Faça parte</a>
+        <a class="botao" href="#presidentes">Presidência</a>
+        <a class="botao" href="#secretario">Secretário</a>
+        <a class="botao" href="#tesoureiro">Tesoureiro</a>
+        <a class="botao" href="#comunicacao">Diretor de comunicação</a>
+        <a class="botao" href="#CulturaEsportes">Diretor de cultura e esportes</a>
+        <a class="botao" href="#MeioAmbienteProjetos">Diretor de meio ambiente e projetos</a>
+        <a class="botao" href="#funcoes">Funções</a>
+    </div>
 
-    <h2 class="presidentes">Presidente e vice</h2>
-    <ul>
-        <li><i class="fa-solid fa-square-poll-horizontal"></i> Vamos oferecer pesquisas presenciais de satisfação para os estudantes</li>
-        <li><i class="fa-solid fa-laptop-code"></i>Site personnalizado para sugestões e explicações</li>
-    </ul>
-    <h2 class="secretario">Secretario</h2>
-    <h2 class="tesoureiro">Tesoureiro</h2>
-    <h2 class="comunicacao">Diretor de comunicação</h2>
-    <h2 class="CulturaEsportes">Diretor de cultura e  esportes</h2>
-    <h2 class="MeioAmbienteProjetos">Diretor de Meio ambiente e projetos</h2>
+    <div class="conteudo">
+        <h2 id="presidentes">Presidente e vice</h2>
+        <p>Se nossa chapa ganhar faremos pesquisas de satisfação regulares com os estudantes e teremos um site para perguntas, respostas e propostas</p>
+        <ul>
+            <li><i class="fa-solid fa-square-poll-horizontal"></i> Vamos oferecer pesquisas presenciais de satisfação para os estudantes</li>
+            <li><i class="fa-solid fa-laptop-code"></i> Site personalizado para sugestões e explicações</li>
+        </ul>
+        <h2 id="secretario">Secretária</h2>
+        <p>Se nossa chapa vencer iremos fazer uma consientização sobre a higiene nos banheiros com cartazes, etc</p>
+        <ul>
+            <li><i class="fa-solid fa-toilet-paper"></i>consientização sobre higiene nos banheiros</li>
+        </ul>
+        <h2 id="tesoureiro">Tesoureira</h2>
+        <p>Se nossa chapa ganhar faremos um mural do estudante com: parabenizações por conquistas de alunos e coisas que os alunos gostariam de expor</p>
+        <ul>
+            <li><i class="fa-solid fa-pencil"></i>mural do estudante</li>
+        </ul>
+        <h2 id="comunicacao">Diretor de comunicação</h2>
+        <h2 id="CulturaEsportes">Diretora de cultura e esportes</h2>
+        <p>Se nossa chapa ganhar iremos integrar mais cultura para a escola e fazer interclasses de vários esportes</p>
+        <ul>
+            <li><i class="fa-solid fa-futbol"></i>Atualizar os alunos sobre tudo que está acontecendo no Brasil e no mundo sobre cultura e esporte.</li>
+            <li><i class="fa-solid fa-medal"></i>Fazer um interclasse antes das férias de julho.</li>
+            <li><i class="fa-solid fa-volleyball"></i>Não focar só em um esporte</li>
+            <li><i class="fa-solid fa-baseball"></i>Diversificar mais os esportes dentro da escola</li>
+        </ul>
+        <h2 id="MeioAmbienteProjetos">Diretor de Meio ambiente e projetos</h2>
 
-    <table border="1">
-        <tr>
-            <th>Nome</th>
-            <th>Função</th>
-        </tr>
-        <tr>
-            <td>Lara</td>
-            <td>Presidente</td>
-        </tr>
-        <tr>
-            <td>Zimmer</td>
-            <td>Vice</td>
-        </tr>
-        <tr>
-            <td>Domitila</td>
-            <td>Diretora de cultura e esportes</td>
-            
-
-        </tr>
-    </table>
+        <table id="funcoes">
+            <tr>
+                <th>Nome</th>
+                <th>Função</th>
+            </tr>
+            <tr>
+                <td>Lara</td>
+                <td>Presidente</td>
+            </tr>
+            <tr>
+                <td>Zimmer</td>
+                <td>Vice</td>
+            </tr>
+            <tr>
+                <td>Domitila</td>
+                <td>Diretora de cultura e esportes</td>
+            </tr>
+            <tr>
+                <td>Giovana</td>
+                <td>Secrettaria</td>
+            </tr>
+            <tr>
+                <td>Geovana</td>
+                <td>Tesoureira</td>
+            </tr>
+        </table>
+        <form id="formulario">
+            <textarea name="sugestoes" id="sugestoes" placeholder="envie sua sugestão"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
 </body>
 </html>
